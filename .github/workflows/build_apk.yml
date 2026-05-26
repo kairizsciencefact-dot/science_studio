@@ -24,6 +24,9 @@ jobs:
         with:
           flutter-version: '3.19.0'
 
+      - name: Generate Android Files
+        run: flutter create .
+
       - name: Install Dependencies
         run: flutter pub get
 
